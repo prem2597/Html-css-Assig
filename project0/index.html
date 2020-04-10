@@ -5,6 +5,13 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+            a.two {
+                position: relative;
+                color: black;
+                list-style-type: none;
+                text-align: center;
+                font-size: 25px;
+            }
             a.one {
                 color: black;
                 list-style-type: none;
@@ -18,6 +25,21 @@
                 margin: auto;
                 background-color: black; 
             }
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .container > div {
+                background-color: lightskyblue;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                height: auto;
+                width: 30%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
             @media (min-width: 500px) {
                 h1::before {
                     content: "Welcome to My World!";
@@ -29,6 +51,16 @@
                     content: "Welcome!";
                 }
             }
+            div {
+                text-align: inherit;
+            }
+            div::selection {
+                color: red;
+                background-color: yellow;
+            }
+            hr {
+                overflow: hidden;
+            }
         </style>
     </head>
     <body>
@@ -38,6 +70,17 @@
         <a class= "one" style="text-decoration:none" href="Page2.html">Feed back</a>
         <h1 style="color:#FFD700;text-align: center;"></h1>
         <br>
-
+        <a class= "two" style="text-decoration:none"><center>My Experience!</center></a>
+        <hr>
+        <div class="container">
+            <div>My First experience at work was started in my college under the organisation called intershala. I was the only one who was selected for more than 5 times as an ISP continuously.</div>
+            <div>I worked as Campus ambassador in the university with Andhra Pradesh state council of higher education for an year, where APSCHE has collabrated with British council Soft skills Project.</div>
+            <div>I worked as student placement co-ordinator and helped the students to set a proper communication barrier between the institute, students and the company.</div>
+            <div>I was one of the active participant in (NSS) National Service Scheme and also acted as a facilitator to the entire district</div>
+            <div>I was also elected as class representative in my college which also helped me to improve my leadership skills to maintain peace and harmony among everyone.</div>
+            <div>I worked for General Elections 2019 as web casting head for two district where I got a chance to collabrate with district collector and commissioner of guntur district.</div>
+            <div>I had organized many national level seminars and workshop in my college which helped me to increase my co-ordination skills.</div>
+            <div>I usually go for cycling in order to increse focus on my work.</div>
+        </div>
     </body>
 </html>
