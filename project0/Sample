@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>My Web Page!</title>
+        <style>
+            .TGN_site_HeaderC {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                height: 66px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                pointer-events: none;
+                z-index: initial;
+            }
+            .TGN_site_HeaderC {
+                background-color: white;
+                color: black;
+            }
+            a {
+                color: black;
+                list-style-type: none;
+                margin: 25px 20px;
+            }
+            li {
+                display: inline;
+            }
+            button {
+                width: 200px;
+                height: 50px;
+                font-size: 24px;
+                color: black;
+                background-color: white;
+            }
+            a:hover {
+                color: grey;   
+            }
+            .image {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+            }
+            h1 {
+                background-color: black; 
+            }
+            img {
+                display: inline-block;
+                margin: 25px 20px;
+            }
+            p {
+                margin: 20px;
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                padding: 35px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="TGN_site_HeaderC" style="width: 100%;">flex</div>
+        <a style="text-decoration:none" href="https://www.google.com">Home</a>
+        <a style="text-decoration:none" href="https://www.google.com">about me</a>
+        <a style="text-decoration:none" href="https://www.google.com">Hello</a>
+        <h1 style="color:#FFD700;text-align: center;">
+            My Journey
+        </h1>
+        <img src="Prem.jpeg" alt="" class="image" style="float:left">
+        <p>
+            Hello, I am Prem Kumar. Basically, I am from Visakhapatnam. I completed my graduation in Guntur and right now I am pursuing my Post Graduation in Hyderabad. During my graduation, I worked for many organizations like APSCHE, Internshala and even worked for general elections 2019 which helped me to gain knowledge in terms of my time management,  leadership, and coordination skills. In order to increase my mental ability and focus on my work I usually go cycling. My goal is to expand my professional knowledge in Artificial Intelligence with the help of a reputed organization.
+        </p>
+    </body>
+</html>
