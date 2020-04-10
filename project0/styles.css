@@ -1,0 +1,41 @@
+a.one {
+    color: black;
+    list-style-type: none;
+    margin: 25px 20px;
+    font-size: 18px;
+}
+a.one:hover {
+    color: grey;   
+}
+h1 {
+    margin: auto;
+    background-color: black; 
+}
+hr {
+    overflow: hidden;
+}
+a.two {
+    position: relative;
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+}
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 8px solid blue;
+    padding: 25px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: auto;
+    border-collapse: collapse;
+}
+input[type=text] {
+    background-color: orange;
+}
+
+input[type=number] {
+    background-color: yellow;
+}

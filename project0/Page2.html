@@ -4,42 +4,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Webpage</title>
-        <style>
-            a.one {
-                color: black;
-                list-style-type: none;
-                margin: 25px 20px;
-                font-size: 18px;
-            }
-            a.one:hover {
-                color: grey;   
-            }
-            h1 {
-                margin: auto;
-                background-color: black; 
-            }
-            hr {
-                overflow: hidden;
-            }
-            a.two {
-                position: relative;
-                color: black;
-                list-style-type: none;
-                text-align: center;
-                font-size: 25px;
-            }
-            div {
-                background-color: lightgrey;
-                width: 300px;
-                border: 8px solid blue;
-                padding: 25px;
-                width: 80%;
-                margin-left: 10%;
-                margin-right: 10%;
-                position: auto;
-                border-collapse: collapse;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <a class= "one" style="text-decoration:none" href="index.html">Home</a>
@@ -61,5 +26,18 @@
             We have also had a workshop presentation in the presence of Sachiko Yamano the President of Japan International Cooperation Center and received a certificate for the completion of JENESYS 2017.<br><br>
             <center>For More info        <a style="text-decoration: none;" href="https://www.jice.org/exchange/en/report/2018/05/jenesys2017-20171024103124.html">Click Here</a></center>
         </div>
+        <hr>
+        <br>
+        <a class= "two" style="text-decoration:none"><center>Feed Back Form</center></a>
+        <br>
+        <form>
+            <div>
+                <input name="name" type="text" placeholder="Name">
+                <input name="password" type="password" placeholder="Password">
+                <input name="rate" type="number" placeholder="Rating">
+                <input name="text" type="text" placeholder="Feedback">
+                <input name="email" type="text" placeholder="email-ID">
+            </div>
+        </form>
     </body>
 </html>
